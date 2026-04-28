@@ -1,0 +1,79 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #0f172a;
+    color: white;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+/* Input */
+input {
+    padding: 12px;
+    width: 60%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+/* Button */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* Card */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+/* Script box */
+pre {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+/* Image */
+img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Audio */
+audio {
+    margin-top: 10px;
+    width: 100%;
+}
